@@ -1,18 +1,47 @@
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
+  color: black;
 }
-
 .settings__setting i {
-  opacity: 0.8;
+  opacity: 0.6;
   margin-right: 20px;
-  font-size: 22px;
 }
-
 .settings__setting-column:last-child {
-  opacity: 0.5;
+  color: var(--gray);
+}
+.setting-list:first-child,
+.setting-list:nth-child(2) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+.setting-list .settings__setting:last-child {
+  border: none;
+}
+.main-screen {
+  margin-bottom: var(--nav-height);
+}
+.service {
+  padding-top: 10px;
+}
+.service .settings__setting span {
+  font-size: 20px;
+}
+.settings__setting-column {
+  position: relative;
+}
+.setting-new {
+  position: absolute;
+  right: -28px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  border-radius: 50%;
+  background-color: tomato;
+  padding: 5px 6px;
 }
