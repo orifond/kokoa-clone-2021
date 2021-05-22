@@ -4,12 +4,14 @@
 
 .more-suggestions {
   margin-top: 50px;
+  margin-bottom: 70px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
 
 .more-suggestions__title {
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .more-suggestions__icons {
@@ -17,10 +19,10 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100px;
 }
 
 .more-suggestions__icon-image {
@@ -37,4 +39,9 @@
 .more-suggestions__icon-image i {
   font-size: 28px;
   color: white;
+  transition: transform 0.3s;
+}
+
+.more-suggestions__icon:hover .more-suggestions__icon-image i {
+  transform: scale(1.2);
 }
