@@ -2,7 +2,7 @@
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: var(--deep-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 #no-mobile > span {
-  color: rgb(39, 39, 39);
+  color: white;
   opacity: 0;
   padding: 10px 0;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
