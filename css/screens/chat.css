@@ -106,7 +106,7 @@
   font-size: 12px;
 }
 .message__check {
-  color: tomato;
+  color: gray;
   font-size: 15px;
   font-weight: 600;
   margin-left: 5px;
@@ -147,6 +147,12 @@
 .send-img2 {
   width: 250px;
   height: 250px;
+  margin-left: 7px;
+}
+
+.send-img3 {
+  width: 263px;
+  height: 144px;
   margin-left: 7px;
 }
 
