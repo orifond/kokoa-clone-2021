@@ -9,3 +9,24 @@
   color: white;
   font-weight: 600;
 }
+
+.cog__red-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+}
+
+/* 애니메이션 때문에 사라짐 
+.nav__red-dot {
+  position: absolute;
+  right: -3px;
+  top: 0px;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+*/

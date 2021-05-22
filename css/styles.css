@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -12,6 +12,8 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/background-img.css";
+@import "components/icon-group.css";
 
 /* screens*/
 @import "screens/login.css";
@@ -22,8 +24,13 @@
 @import "screens/chat.css";
 
 body {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .main-screen {

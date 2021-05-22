@@ -9,14 +9,14 @@
 
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>Ori</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>12:21</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -26,25 +26,30 @@
         <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
           <span><i class="fas fa-search fa-lg"></i></span>
-          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span><a class="fas fa-cog fa-lg" href="settings.html" ></a> 
+          </span>
+          <span class="cog__red-dot"></span></a>
         </div> 
     </header>
 
-
     <main class="main-screen">
         <div class="icon-row">
-            <div class="icon-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR Code</span></div>
-            <div class="icon-row__icon">
-                <i class="far fa-address-book"></i>
-                <span>Add by Contacts</span></div>
-            <div class="icon-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span></div>
-            <div class="icon-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>Invite</span></div>
+      <div class="icon-group__icon">
+        <i class="fas fa-qrcode fa-lg"></i>
+        <span>QR Code</span>
+      </div>
+      <div class="icon-group__icon">
+        <i class="far fa-address-book fa-lg"></i>
+        <span>Contact</span>
+      </div>
+     <div class="icon-group__icon">
+        <i class="fas fa-fingerprint fa-lg"></i>
+        <span>Add by ID</span>
+      </div>
+      <div class="icon-group__icon">
+        <i class="far fa-envelope fa-lg"></i>
+        <span>Invite</span>
+      </div>
         </div>
 
         <div class="recommended-friends">
@@ -63,10 +68,10 @@
             </div>
             <div class="open-post">
                 <div class="open-post__column">
-                    <h5 class = "open-post__title">#SKY</h5>
-                    <h6 class = "open-post__hashtags">#blue#skyblue#blueviloet </h6> 
+                    <h5 class = "open-post__title">#BLUE</h5>
+                    <h6 class = "open-post__hashtags">#skyblue#blueviloet#clickonheart </h6> 
                     <div class="open-post__members">   
-                        <img src ="https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjNfMTk5/MDAxNTk4MTcwNzc3NTYw.73cmk0vfDPq9ApsLVJzyMDhLF7BT2JCiQQBM4-Ldl64g.RL-19j9QYyqwOayKeDk97YF11BeKiYge-TnmloBivJ8g.JPEG.hurr19/1598170775910.jpg?type=w800#"/>
+                        <img src ="https://github.com/orifond/kokoa-clone-2021/blob/main/img/8.jpg?raw=true"/>
                         <span class="open-post__members-count">802 members</span>
                         <div class="divider"></div>
                         <span class="open-post__members-status">Active</span>
@@ -78,12 +83,13 @@
                     <div class="open-post__heart-count">
                         <i class="fas fa-heart fa-xs"></i><span>326</span>
                     </div>
-
                     </div>
 
                    
                 </div>
             </div>
+
+            
         </div>
     </main>
 
@@ -106,6 +112,7 @@
           </a>
         </li>
         <li class="nav__btn">
+         <span class="nav__red-dot"></span>
           <a class="nav__link" href="more.html">
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
@@ -114,8 +121,14 @@
     </nav>
 
     <div id="no-mobile">
+      <span> <span><</span>span<span>></span> </span>
+
       <span>Your screen is too big</span>
+
+      <span> <span><</span><span>/</span>span<span>></span> </span>
     </div>
+
+
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
