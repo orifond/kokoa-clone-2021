@@ -53,6 +53,10 @@
   height: 100vh;
 }
 
+.main-chat__Chats {
+  height: 90vh;
+}
+
 .chat__timestamp {
   color: white;
   background-color: #92a4b2;
